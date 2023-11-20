@@ -14,3 +14,8 @@ while 1:
     group = int(temp[1])
     groups[surname] = group
 
+sorted_groups = sorted(groups.items(), key=lambda item: item[1])
+print(sorted_groups)
+
+
+
