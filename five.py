@@ -12,4 +12,3 @@ def factorial(n, i, r):
         factorial(n, i, result)
 
 factorial(n, n-1, 1)
-
