@@ -9,7 +9,7 @@ print(nums)
 
 composite = set()
 
-for i in range(2, len(nums)):
+for i in range(0, len(nums)):
     a = i + 1
     for j in range(i + 1, len(nums)):
         if nums[j] % nums[i] == 0:
